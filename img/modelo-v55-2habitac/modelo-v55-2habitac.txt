@@ -1,0 +1,4 @@
+modelo v55
+superficie total 81.175m2
+sup cubierta 52.475m2
+sup semi-cubierta 28.70m2

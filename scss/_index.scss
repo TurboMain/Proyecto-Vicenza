@@ -1,0 +1,174 @@
+@media (min-width: 240px) {
+  body {
+    .portada {
+      img {
+        height: 200px;
+      }
+      header {
+        .logo-empresa {
+          width: 0;
+          height: 0;
+        }
+        .navbar {
+          margin-top: -45px;
+          margin-bottom: 30px;
+          text-align: center;
+          width: 100%;
+          border-radius: 10px;
+          background-color: rgb(101, 194, 234);
+          .navbar-toggler {
+            width: 80px;
+          }
+        }
+      }
+    }
+    main {
+      .primer-propaganda {
+        text-align: center;
+        img {
+          width: 150px;
+          margin-bottom: 30px;
+        }
+      }
+      .secciones {
+        border-top: solid 1px rgb(0, 169, 188);
+        margin-top: 40px;
+        padding-top: 40px;
+        section {
+          article {
+            margin-top: 50px;
+            .card {
+              text-align: center;
+              box-shadow: 2px 2px 6px 5px rgba(73, 73, 73, 0.2);
+              transition-property: transform;
+              transition-duration: 0.4s;
+              &:hover {
+                transform: scale3d(1.1, 1.1, 1.1);
+              }
+            }
+          }
+        }
+      }
+      .contacto-imagenes {
+        text-align: center;
+        img {
+          width: 50px;
+        }
+      }
+      .ubicacion {
+        padding: 50px 0px;
+        text-align: center;
+        iframe {
+          border-radius: 30px;
+        }
+        h5 {
+          margin-bottom: 15px;
+        }
+        h6 {
+          margin-bottom: 30px;
+        }
+      }
+      .flecha {
+        margin-top: 20px;
+      }
+      .tercer-propaganda {
+        video {
+          margin-top: 20px;
+        }
+      }
+    }
+    .whatsapp_flotante {
+      position: fixed;
+      right: 3px;
+      bottom: 3px;
+      z-index: 1;
+    }
+    footer {
+      text-align: center;
+      width: 100%;
+      .seguinos {
+        background-color: rgb(25, 179, 173);
+        padding: 40px;
+      }
+      .iconos-sociales {
+        img {
+          width: 30px;
+        }
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: rgb(0, 150, 145);
+      }
+      .copy {
+        background-color: rgb(0, 129, 124);
+        padding: 50px;
+        color: rgb(238, 247, 255);
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
+}
+
+/* ------ Media Querie 500px ----------*/
+
+@media (min-width: 500px) {
+  body {
+    .portada {
+      img {
+        height: 300px;
+      }
+    }
+  }
+}
+main {
+  .primer-propaganda {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 150px;
+    }
+  }
+}
+
+/* Media Querie 768px */
+
+@media (min-width: 768px) {
+  body {
+    .portada {
+      img {
+        height: 400px;
+      }
+    }
+    main {
+      .carousel {
+        img {
+          height: 500px;
+        }
+      }
+      .primer-propaganda {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img {
+          width: 250px;
+        }
+      }
+      .segunda-propaganda {
+        video {
+          height: 400px;
+        }
+      }
+      .seccion-contacto {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+    }
+  }
+}

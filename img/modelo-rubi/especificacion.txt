@@ -1,0 +1,4 @@
+modelo rubi
+sup total 92.82m2
+sup cubeirta 61.72
+sup semi-cubierta 31.10
