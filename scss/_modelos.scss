@@ -1,0 +1,22 @@
+@media (min-width: 240px) {
+  main {
+    .modelos {
+      color: rgb(30, 30, 30);
+      padding: 30px;
+      border-bottom: 1px solid rgb(101, 194, 234);
+    }
+    section {
+      h5 {
+        margin-top: 30px;
+      }
+      .lista-modelos {
+        list-style-type: none;
+      }
+    }
+    .img-modelos {
+      div {
+        margin-top: 30px;
+      }
+    }
+  }
+}

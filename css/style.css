@@ -60,6 +60,9 @@
   body main .ubicacion iframe {
     border-radius: 30px;
   }
+  body main .ubicacion img {
+    margin-bottom: 40px;
+  }
   body main .ubicacion h5 {
     margin-bottom: 15px;
   }
@@ -145,6 +148,22 @@ main .primer-propaganda img {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
+  }
+}
+@media (min-width: 240px) {
+  main .modelos {
+    color: rgb(30, 30, 30);
+    padding: 30px;
+    border-bottom: 1px solid rgb(101, 194, 234);
+  }
+  main section h5 {
+    margin-top: 30px;
+  }
+  main section .lista-modelos {
+    list-style-type: none;
+  }
+  main .img-modelos div {
+    margin-top: 30px;
   }
 }
 
