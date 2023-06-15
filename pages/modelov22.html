@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <!---------- CDN AOS ANIMATE ----------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- CSS de BS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -215,7 +217,7 @@
           <h5>Visita Nuestra Oficina</h5>
           <h6>Esquina 53 y 54, Villa Cañás, Argentina</h6>
         </div>
-        <div class="container">
+        <div class="container" data-aos="flip-up">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d983.3619888124397!2d-61.60634976443651!3d-34.00223442023735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1686425860397!5m2!1ses-419!2sar"
             width="100%"
@@ -273,5 +275,10 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <!----------- SCRIPT de AOS -------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
