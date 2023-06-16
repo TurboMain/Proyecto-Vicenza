@@ -141,6 +141,9 @@ main .primer-propaganda img {
   body main .primer-propaganda img {
     width: 250px;
   }
+  body main .parrafo {
+    font-size: 1.5rem;
+  }
   body main .segunda-propaganda video {
     height: 400px;
   }
@@ -164,6 +167,14 @@ main .primer-propaganda img {
   }
   main .img-modelos div {
     margin-top: 30px;
+  }
+  main .img-modelos div img {
+    border-radius: 10px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+  }
+  main .img-modelos div img:hover {
+    transform: scale3d(1.2, 1.2, 1);
   }
 }
 
