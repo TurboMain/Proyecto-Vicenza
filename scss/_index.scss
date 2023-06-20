@@ -1,5 +1,6 @@
 @media (min-width: 240px) {
   body {
+    height: 100vh;
     .portada {
       img {
         height: 200px;
@@ -23,14 +24,30 @@
       }
     }
     main {
+      h1 {
+        color: $color-titulos;
+      }
       .primer-propaganda {
         text-align: center;
-        img {
-          width: 150px;
+        .tu-casa {
+          width: 180px;
           margin-bottom: 30px;
+        }
+        .primer-lista {
+          font-size: 1.2rem;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          text-align: start;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          li {
+            width: auto;
+          }
         }
       }
       .secciones {
+        color: $color-titulos;
         border-top: solid 1px rgb(0, 169, 188);
         margin-top: 40px;
         padding-top: 40px;
@@ -89,6 +106,7 @@
     footer {
       text-align: center;
       width: 100%;
+      height: auto;
       .seguinos {
         background-color: rgb(25, 179, 173);
         padding: 40px;
@@ -132,8 +150,13 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    img {
-      width: 150px;
+  }
+  .primer-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    li {
+      width: auto;
     }
   }
 }
@@ -158,8 +181,13 @@ main {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        img {
-          width: 250px;
+      }
+      .primer-lista {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        li {
+          width: auto;
         }
       }
       .parrafo {
