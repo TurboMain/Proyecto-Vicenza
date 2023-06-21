@@ -25,13 +25,27 @@
     }
     main {
       h1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
         color: $color-titulos;
       }
+      .nosotros {
+        background-color: rgb(0, 129, 124);
+        color: rgb(255, 255, 255);
+        padding-bottom: 50px;
+      }
       .primer-propaganda {
+        margin-top: -40px;
+        margin-bottom: -40px;
+        padding-bottom: 40px;
         text-align: center;
+        background-color: rgb(213, 213, 204);
         .tu-casa {
           width: 180px;
           margin-bottom: 30px;
+        }
+        .video-juan-carlos {
+          width: 100%;
         }
         .primer-lista {
           font-size: 1.2rem;
@@ -67,7 +81,11 @@
         }
       }
       .contacto-imagenes {
+        color: rgb(249, 250, 250);
         text-align: center;
+        padding: 50px 0px;
+        background-color: rgb(0, 150, 145);
+        margin-bottom: -41px;
         img {
           width: 50px;
         }
@@ -79,7 +97,7 @@
           border-radius: 30px;
         }
         img {
-          margin-bottom: 40px;
+          margin-bottom: 10px;
         }
         h5 {
           margin-bottom: 15px;
@@ -88,20 +106,16 @@
           margin-bottom: 30px;
         }
       }
-      .flecha {
-        margin-top: 20px;
-      }
       .tercer-propaganda {
         video {
           margin-top: 20px;
         }
       }
-    }
-    .whatsapp_flotante {
-      position: fixed;
-      right: 3px;
-      bottom: 3px;
-      z-index: 1;
+      .whatsapp_flotante {
+        position: fixed;
+        right: 3px;
+        bottom: 3px;
+      }
     }
     footer {
       text-align: center;
@@ -150,6 +164,9 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    .video-juan-carlos {
+      width: 350px;
+    }
   }
   .primer-lista {
     display: flex;
@@ -181,6 +198,9 @@ main {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        .video-juan-carlos {
+          width: 900px;
+        }
       }
       .primer-lista {
         display: flex;

@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0%;
-  box-sizing: border-box;
   list-style-type: none;
 }
 
@@ -28,14 +27,28 @@
     width: 80px;
   }
   body main h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: "rgb(97, 97, 97);";
   }
+  body main .nosotros {
+    background-color: rgb(0, 129, 124);
+    color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+  }
   body main .primer-propaganda {
+    margin-top: -40px;
+    margin-bottom: -40px;
+    padding-bottom: 40px;
     text-align: center;
+    background-color: rgb(213, 213, 204);
   }
   body main .primer-propaganda .tu-casa {
     width: 180px;
     margin-bottom: 30px;
+  }
+  body main .primer-propaganda .video-juan-carlos {
+    width: 100%;
   }
   body main .primer-propaganda .primer-lista {
     font-size: 1.2rem;
@@ -68,7 +81,11 @@
     transform: scale3d(1.1, 1.1, 1.1);
   }
   body main .contacto-imagenes {
+    color: rgb(249, 250, 250);
     text-align: center;
+    padding: 50px 0px;
+    background-color: rgb(0, 150, 145);
+    margin-bottom: -41px;
   }
   body main .contacto-imagenes img {
     width: 50px;
@@ -81,7 +98,7 @@
     border-radius: 30px;
   }
   body main .ubicacion img {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   body main .ubicacion h5 {
     margin-bottom: 15px;
@@ -89,17 +106,13 @@
   body main .ubicacion h6 {
     margin-bottom: 30px;
   }
-  body main .flecha {
-    margin-top: 20px;
-  }
   body main .tercer-propaganda video {
     margin-top: 20px;
   }
-  body .whatsapp_flotante {
+  body main .whatsapp_flotante {
     position: fixed;
     right: 3px;
     bottom: 3px;
-    z-index: 1;
   }
   body footer {
     text-align: center;
@@ -141,6 +154,9 @@ main .primer-propaganda {
   justify-content: space-around;
   align-items: center;
 }
+main .primer-propaganda .video-juan-carlos {
+  width: 350px;
+}
 main .primer-lista {
   display: flex;
   flex-direction: column;
@@ -163,6 +179,9 @@ main .primer-lista li {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+  body main .primer-propaganda .video-juan-carlos {
+    width: 900px;
   }
   body main .primer-lista {
     display: flex;
