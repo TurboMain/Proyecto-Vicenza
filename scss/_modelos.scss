@@ -1,28 +1,47 @@
 @media (min-width: 240px) {
-  main {
-    .modelos {
-      color: rgb(30, 30, 30);
-      padding: 30px;
-      border-bottom: 1px solid rgb(101, 194, 234);
-    }
-    section {
-      h5 {
-        margin-top: 30px;
+  body {
+    header {
+      .logo-empresa {
+        width: 0;
+        height: 0;
       }
-      .lista-modelos {
-        list-style-type: none;
+      .navbar {
+        margin-top: -50px;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 100%;
+        border-radius: 10px;
+        background-color: rgb(101, 194, 234);
+        .navbar-toggler {
+          width: 80px;
+        }
       }
     }
-    .img-modelos {
-      div {
-        margin-top: 30px;
-        img {
-          box-shadow: 2px 2px 6px 5px rgba(73, 73, 73, 0.2);
-          border-radius: 10px;
-          transition-property: transform;
-          transition-duration: 0.4s;
-          &:hover {
-            transform: scale3d(1.2, 1.2, 1);
+    main {
+      .modelos {
+        color: rgb(30, 30, 30);
+        padding: 30px;
+        border-bottom: 1px solid rgb(101, 194, 234);
+      }
+      section {
+        h5 {
+          margin-top: 30px;
+        }
+        .lista-modelos {
+          list-style-type: none;
+        }
+      }
+      .img-modelos {
+        div {
+          margin-top: 30px;
+          img {
+            box-shadow: 2px 2px 6px 5px rgba(73, 73, 73, 0.2);
+            border-radius: 10px;
+            transition-property: transform;
+            transition-duration: 0.4s;
+            &:hover {
+              transform: scale3d(1.2, 1.2, 1);
+            }
           }
         }
       }
